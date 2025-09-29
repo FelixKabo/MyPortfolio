@@ -12,7 +12,7 @@ const HeroPic = () => {
       className="flex items-center justify-center h-full "
     >
       <img
-        src="../../public/images/hexa_flx.png"
+        src={`${import.meta.env.BASE_URL}images/hexa_flx.png`}
         alt="FELIX KABONERO TANLIMHUIJAYA"
         className="max-h-[450px] w-auto -translate-x-3"
       />

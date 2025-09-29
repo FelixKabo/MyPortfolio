@@ -3,7 +3,7 @@ const SubSkills = () => {
     <div className="relative border-y-2 border-lightGrey ">
       <div className="absolute w-full h-full opacity-50 bg-gradient-to-r from-orange to-cyan"></div>
       <img
-        src="../../public/images/subSkills.jpg"
+        src={`${import.meta.env.BASE_URL}images/subSkills.jpg`}
         alt="subSkills image"
         className=""
       />
